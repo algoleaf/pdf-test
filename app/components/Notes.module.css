@@ -1,0 +1,19 @@
+.c {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;          
+}
+
+.c2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 500px) {
+    .c {
+        position: fixed;
+        overflow: auto;          
+    }   
+}
